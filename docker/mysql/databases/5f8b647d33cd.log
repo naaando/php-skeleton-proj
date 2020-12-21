@@ -1,0 +1,18 @@
+201217 19:40:24	   289 Connect	root@172.26.0.3 on  using TCP/IP
+		   289 Query	SET NAMES utf8
+		   289 Query	USE `sweduc`
+		   289 Query	SET lc_time_names = 'pt_BR'
+		   289 Query	SET lc_messages = 'pt_BR'
+		   289 Query	SELECT *,DATE_FORMAT(atualizadoem,'%d-%m-%Y') as atualizadoem FROM configuracoes
+201217 19:40:25	   290 Connect	root@172.26.0.3 on  using TCP/IP
+		   290 Query	SET NAMES utf8
+		   290 Query	USE `sweduc`
+		   290 Query	SET lc_time_names = 'pt_BR'
+		   290 Query	SET lc_messages = 'pt_BR'
+		   290 Query	SELECT *,DATE_FORMAT(atualizadoem,'%d-%m-%Y') as atualizadoem FROM configuracoes
+201217 19:40:26	   291 Connect	root@172.26.0.3 on  using TCP/IP
+		   291 Query	SET NAMES utf8
+		   291 Query	USE `sweduc`
+		   291 Query	SET lc_time_names = 'pt_BR'
+		   291 Query	SET lc_messages = 'pt_BR'
+		   291 Query	SELECT *,DATE_FORMAT(atualizadoem,'%d-%m-%Y') as atualizadoem FROM configuracoes

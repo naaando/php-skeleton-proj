@@ -1,0 +1,41 @@
+mysqld, Version: 10.5.6-MariaDB-1:10.5.6+maria~focal (mariadb.org binary distribution). started with:
+Tcp port: 3306  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+201217 21:35:07	    10 Query	SHOW GLOBAL VARIABLES WHERE Variable_name="general_log"
+		    11 Quit	
+		    10 Quit	
+201217 21:35:15	    12 Connect	root@172.20.0.3 on  using TCP/IP
+		    12 Query	SELECT @@version, @@version_comment
+		    12 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    12 Query	SET lc_messages = 'pt_PT'
+		    13 Connect	root@172.20.0.3 on  using TCP/IP
+		    12 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    12 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    12 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    12 Init DB	mysql
+		    12 Query	SHOW SESSION VARIABLES
+		    12 Query	SHOW GLOBAL VARIABLES
+		    13 Quit	
+		    12 Quit	
+201217 21:35:21	    14 Connect	root@172.20.0.3 on  using TCP/IP
+		    14 Query	SELECT @@version, @@version_comment
+		    14 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    14 Query	SET lc_messages = 'pt_PT'
+		    15 Connect	root@172.20.0.3 on  using TCP/IP
+		    14 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    14 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    14 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    14 Query	SHOW GLOBAL VARIABLES WHERE Variable_name='general_log_file'
+		    15 Quit	
+		    14 Quit	
+201217 21:35:24	     7 Quit	
+		     6 Quit	
+		    16 Connect	root@172.20.0.3 on  using TCP/IP
+		    16 Query	SELECT @@version, @@version_comment
+		    16 Query	SET NAMES 'utf8mb4' COLLATE 'utf8mb4_general_ci'
+		    16 Query	SET lc_messages = 'pt_PT'
+		    17 Connect	root@172.20.0.3 on  using TCP/IP
+		    16 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    16 Query	SET collation_connection = 'utf8mb4_unicode_ci'
+		    16 Query	SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+		    16 Query	SET GLOBAL general_log_file = 'log.log'
